@@ -11,7 +11,7 @@
    - Integrates verified human spaceflight immune studies (`OSD-570`, `OSD-575`, `OSD-569`, `OSD-53`) via the NASA OSDR REST API with strict provenance tagging (`NASA_OSDR_API_LIVE` vs. `NASA_OSDR_CURATED_CATALOG`).
    - Uses pathway-level signature aggregation (`IL6`, `NFKBIA`, `IL2RA`, `GZMB`, `PRF1`, `IFNG`) to prevent high-dimensional overfitting on small astronaut cohorts ($N=4$ to $N=12$).
 
-2. **Mechanistic Immune System ODE Engine (`Stage 3–4`)**
+2. **Mechanistic Immune System ODE Engine (`Stage 3–4 `)**
    - Integrates coupled ordinary differential equations (`SciPy RK45`) modeling T-cell TCR/IL-2 activation $T(t)$, NK-cell cytolytic activity $K(t)$, and IL-6/NF-$\kappa$B inflammatory tone $I(t)$ under microgravity and ionizing radiation stress.
 
 3. **Group-Validated Hybrid Residual Machine Learning (`Stage 5–8`)**
