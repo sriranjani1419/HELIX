@@ -25,3 +25,7 @@
 ```bash
 source backend/.venv/bin/activate
 uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000 --reload
+
+Contributors
+Dhanvanth PU - https://www.github.com/dhanvanthkarun
+Sriranjani P - https://www.github.com/sriranjani1419
